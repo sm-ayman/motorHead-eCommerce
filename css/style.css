@@ -190,7 +190,8 @@ body {
     letter-spacing: -0.1px;
     color: #9A9EA7;
 }
-.button1{
+
+.button1 {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
     color: #7963f0 !important;
     border-radius: 8px !important;
@@ -202,6 +203,7 @@ body {
     text-align: center !important;
     letter-spacing: -0.1px !important;
 }
+
 .button2 {
     background-color: #f5f6f7 !important;
     color: #9a9ea7 !important;
@@ -214,9 +216,106 @@ body {
     text-align: center !important;
     letter-spacing: -0.1px !important;
 }
-.card{
+
+.card {
     border: none;
 }
+
+/* section 4 ---- findCar__Section */
+.findcarHeader {
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.findCar__Section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.findCar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.arrowArea {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #9A9EA7;
+    margin-top: 10px;
+}
+
+.arrowArea img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+header p span {
+    margin: 0px 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.carName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.proBTN {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+    color: #7963f0 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+
+.basicBTN {
+    background-color: #f5f6f7 !important;
+    color: #9a9ea7 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+
+.product {
+    min-width: 25%;
+    margin: 0 20px 50px 0px;
+    position: relative;
+    left: 0px;
+    transition: 0.5s;
+}
+
+
 
 /* making responsive  */
 @media all and (max-width:767px) {
@@ -244,6 +343,7 @@ body {
     .car__logos img {
         margin-top: 15px;
     }
+
     .cars__card .card {
         margin-bottom: 25px;
     }
